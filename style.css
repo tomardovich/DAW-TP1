@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    color: #cc0000;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 38px;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+h2 {
+    color: #555555;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 1.1;
+}
+
+h3 {
+    color: #ff0000;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.author {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 30px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+figure {
+    margin-bottom: 30px;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+figcaption {
+    color: #777777;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.cuerpo-de-la-noticia p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+footer {
+    color: #999999;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #eeeeee;
+}
