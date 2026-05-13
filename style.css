@@ -88,9 +88,35 @@ figcaption {
 }
 
 footer {
-    color: #999999;
+    color: #636363;
     font-size: 12px;
     text-align: center;
     padding: 20px 0;
     border-top: 1px solid #eeeeee;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 15px auto;
+        padding: 0 15px;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .cuerpo-de-la-noticia p {
+        font-size: 15px;
+    }
 }
